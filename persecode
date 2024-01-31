@@ -1,0 +1,23 @@
+Q1
+total_cost = (int(y)*int(z)) * 12 + int(x)
+print(total_cost)
+
+Q2
+available_rides = int(money_given) // int(cost_per_ride) 
+print(available_rides)
+
+Q3
+first_2 = word[:2]
+word = word[2:6] + first_2
+print(word)
+
+Q4
+if password_1 == password_2 == password_3:
+  print('OK')
+elif password_1 != password_2 and password_1 != password_3:
+  print('BOTH MISMATCH')
+elif password_1 == password_3 and password_1 != password_2:
+  print('ENTRY 2 MISMATCH')
+else:
+  print('ENTRY 3 MISMATCH')    
+
